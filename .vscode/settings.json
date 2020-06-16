@@ -1,0 +1,88 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "autoDocstring.quoteStyle": "'''",
+    "autoDocstring.docstringFormat": "google",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 5000,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.codeActionsOnSaveTimeout": 5000,
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "meta.function-call.generic",
+                "settings": {
+                    "foreground": "#DCDCAA"
+                }
+            }
+        ]
+    },
+    "explorer.confirmDelete": false,
+    "files.exclude": {
+        ".pytest_cache": true,
+        ".vs": true,
+        "*.db": true,
+        "*.fpr": true,
+        "*.log": true,
+        "*.pyproj*": true,
+        "*.sln": true,
+        "**/__pycache__/": true,
+        "bin": true,
+        "obj": true,
+        "oracleLib4Linux": true,
+        "rabbitmq_wrapper": true,
+        "redis_wrapper": true,
+        /* "archive": true,*/
+        "venv": true
+    },
+    "git.autofetch": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.workspaceSymbols.rebuildOnFileSave": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Default High Contrast",
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.promptToConfigure": false,
+    "appService.zipIgnorePattern": [
+        "__pycache__{,/**}",
+        "*.py[cod]",
+        "*$py.class",
+        ".Python{,/**}",
+        "build{,/**}",
+        "develop-eggs{,/**}",
+        "dist{,/**}",
+        "downloads{,/**}",
+        "eggs{,/**}",
+        ".eggs{,/**}",
+        "lib{,/**}",
+        "lib64{,/**}",
+        "parts{,/**}",
+        "sdist{,/**}",
+        "var{,/**}",
+        "wheels{,/**}",
+        "share/python-wheels{,/**}",
+        "*.egg-info{,/**}",
+        ".installed.cfg",
+        "*.egg",
+        "MANIFEST",
+        ".env{,/**}",
+        ".venv{,/**}",
+        "env{,/**}",
+        "venv{,/**}",
+        "ENV{,/**}",
+        "env.bak{,/**}",
+        "venv.bak{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b67b16a5-85e5-4e45-9598-d6e4cb81a3f0/resourceGroups/doutorado/providers/Microsoft.Web/sites/ncbi-wrapper",
+    "appService.deploySubpath": "genbank-wrapper"
+}
