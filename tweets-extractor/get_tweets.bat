@@ -1,3 +1,3 @@
 echo "Rodando o script..."
 venv/Scripts/activate.bat
-python tweet-extractor.py @Prefeitura_POA @EPTC_POA @CEIC_POA @TransitoPOARS @scit_rs @policiacivilrs @EduardoLeite_ @SSP_RS @SGGE_RS @gmpoaoficial --file-name tweets-poa.csv --tweets-date 2020-03-10
+python tweet-extractor.py @sportv @cazetv --file-name tweets-copa.csv --tweets-date 2022-11-01
